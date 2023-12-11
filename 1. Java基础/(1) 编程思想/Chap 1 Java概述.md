@@ -55,27 +55,6 @@
 Administer用户变量：该变量配置的JAVA只对本用户生效
 
 系统变量：对所有用户生效
-
-## JAVA快速入门
-
-- 需求：开发一个Hello.java程序，可输出"Hello,world!"
-
-- 开发步骤：
-	- 将Java代码编写到扩展名Hello.java
-	- 通过javac命令对该java文件进行编译，生成.class文件
-	- 通过java命令对生成的class文件进行运行
-```
-//这是java的快速入门，演示java的开发步骤
-//对代码的相关说明
-//1. public class Hello 表示Hello是一个类，是一个public公有的类
-//2. Hello{ } 表示一个类的开始和结束
-//3. public static void main(String[] args)表示一个主方法，即程序的入口
-//4. main() {}表示方法的开始和结束
-//5. System.out.println("hello world~")：表示输出"hello,world~"到屏幕
-//6. 表示语句的结束
-public class Hello{
-
-	//编写一个main方法
 	public static void main(String[] args){
 		System.out.println("hello,world~");
 	}
