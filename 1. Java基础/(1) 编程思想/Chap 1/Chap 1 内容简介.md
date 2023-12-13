@@ -55,6 +55,7 @@
 Administer用户变量：该变量配置的JAVA只对本用户生效
 
 系统变量：对所有用户生效
+```
 	public static void main(String[] args){
 		System.out.println("hello,world~");
 	}
