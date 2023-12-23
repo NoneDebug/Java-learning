@@ -17,7 +17,7 @@ public class Homework01 {
         }
     }
     public static void bubbleSortPerson(Person[] persons){
-        for (int i = 0; i < persons.length; i++) {
+        for (int i = 0; i < persons.length- 1; i++) {
             for (int j = 0; j < persons.length - 1 - i; j++){
                 if(persons[j + 1].getAge() < persons[j].getAge()){
                     Person tempPerson = persons[j];
