@@ -15,7 +15,7 @@ class Student extends Person{
 ```
 Person p = new Student(); 
 p.run();    //输出 student run（因为重写了方法）
-p.study();  //输出 student study..
+//p.study();  //无法输出
 p.eat();    //输出 person eat
 ```
 
