@@ -11,7 +11,7 @@ class Student extends Person{
 }
 ```
 
-- 向下转型代码
+- 向上转型代码（父类引用指向子类对象）
 ```
 Person p = new Student(); 
 p.run();    //输出 student run（因为重写了方法）
@@ -19,7 +19,7 @@ p.study();  //输出 student study..
 p.eat();    //输出 person eat
 ```
 
-- 向上转型代码
+- 向下转型代码
 ```
 Student s = new Student();
 Person p1 = (Person()) s;
