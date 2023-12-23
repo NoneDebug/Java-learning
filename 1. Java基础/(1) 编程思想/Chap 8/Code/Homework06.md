@@ -24,16 +24,16 @@ class Son extends Father{
 ```
 
 - 对于`Father`类而言：
-  - `super` 可以访问来自 `Grand` 类中的 `name` 和 `age` 属性，以及 `g1` 方法
+  - `super` 可以访问来自 `Grand` 类中的 `name` 属性 和 `g1` 方法
   - `this` 可以访问来自
-    - `Grand` 类中的 `name` 属性 以及 `g1` 方法
+    - `Grand` 类中的 `name` 属性 和 `g1` 方法
     - 本类中的 `id` 和 `score` 属性 以及 `f1` 方法
 
 - 对于 `Son` 类而言：
   - `super` 可以访问来自
-    - `Grand` 类中的 `name` 属性 以及 `g1` 方法
-    - `Father` 类中的 `id` 和 `scre` 属性 以及 `f1` 方法
+    - `Grand` 类中的 `name` 属性 和 `g1` 方法
+    - `Father` 类中的 `id` 属性 和 `f1` 方法
   - `this` 可以访问来自
-    - `Grand` 类中的 `name` 属性以及 `g1` 方法
-    - `Father` 类中的 `id` 属性 以及 `f1` 方法
+    - `Grand` 类中的 `name` 属性 和 `g1` 方法
+    - `Father` 类中的 `id` 属性 和 `f1` 方法
     - 本类中的 `name` 属性 以及 `g1` 和 `show` 方法    
