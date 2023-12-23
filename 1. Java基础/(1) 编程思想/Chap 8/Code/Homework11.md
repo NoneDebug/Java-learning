@@ -19,11 +19,10 @@ p.run();    //输出 student run（因为重写了方法）
 p.eat();    //输出 person eat
 ```
 
-- 向下转型代码
+- 向下转型代码（把指向子类对象的父类引用，转成指向子类对象的子类引用）
 ```
-Student s = new Student();
-Person p1 = (Person()) s;
-p1.study();   //报错
-p1.run();     //输出 person run
-p1.eat();     //输出 person eat
+Student s = (Student)p;
+s.run();    //输出student run
+s.study();  //输出student study..
+s.eat();    //输出person eat
 ```
