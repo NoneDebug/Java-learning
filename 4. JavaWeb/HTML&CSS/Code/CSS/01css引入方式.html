@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*元素选择器*/
+        input {
+            width: 60px; 
+            height: 40px;
+            background-color: rgb(166, 232, 66);
+            color: white;
+            font-size: 20px;
+            font-family: '隶书';
+            border: 2px solid green;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        引入方式
+        方式1 行内式
+            通过元素的 style属性引入样式
+            语法：style="样式名:样式值; 样式名:样式值"
+            缺点：
+                1 代码复用度低 效率低
+                2 css样式代码 和 html 结构代码交织在一起，影响阅读，影响文件大小，影响性能
+        方式2 内嵌式
+            在 head 标签中的 style 标签定义页面的公共样式
+            通过选择器确定样式的作用元素
+            缺点：
+                1 提高了代码的复用率，但还不够高，因为它无法跨html实现格式的复用
+        
+        -->
+    <input type="button" value="按钮">
+    <input type="button", value="按钮">
+    <input type="button" value="按钮">
+    <input type="button", value="按钮">
+    <input type="button" value="按钮">
+    <input type="button", value="按钮">
+    <!-- <input type="button" value ="按钮"
+        style = "
+            width: 60px; 
+            height: 40px;
+            background-color: rgb(166, 232, 66);
+            color: white;
+            font-size: 20px;
+            font-family: '隶书';
+            border: 2px solid green;
+            border-radius: 5px;
+        "
+    >
+    <input type="button" value ="按钮"
+        style = "
+            width: 60px; 
+            height: 40px;
+            background-color: rgb(166, 232, 66);
+            color: white;
+            font-size: 20px;
+            font-family: '隶书';
+            border: 2px solid green;
+            border-radius: 5px;
+        "
+    > -->
+</body>
+</html>
